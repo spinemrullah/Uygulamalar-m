@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pong</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <h1>Pong</h1>
+    <div class="scoreboard" aria-label="Scoreboard">
+      <span>Player <strong id="player-score">0</strong></span>
+      <span>Computer <strong id="computer-score">0</strong></span>
+    </div>
+    <canvas id="game" width="900" height="500" aria-label="Pong game"></canvas>
+    <p class="help">Move with your mouse or <kbd>↑</kbd>/<kbd>↓</kbd>. Press <kbd>Space</kbd> to pause.</p>
+    <button id="restart" type="button">Restart game</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
